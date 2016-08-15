@@ -1,2 +1,2 @@
-# Limitless
-Limitless Website Project
+# Inspiration
+Inspiration Website Project
