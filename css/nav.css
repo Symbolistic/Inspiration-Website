@@ -1,0 +1,81 @@
+.nav-menu{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 900;
+	top: 0;
+	color: white;
+	background-color: rgba(0,0, 0, .8);
+	display: none;
+}
+
+
+.nav-menu a {
+    height: 20%;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: #A66040; 
+    display: block;
+    text-align: center !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+.nav-menu a.a{
+	background-color: rgba(128,128,128,.5);
+	width: 58%;
+	line-height: 170px;
+	transition: all 0.3s ease;
+}
+
+.nav-menu a.b{
+	background-color: rgba(0,0,0,.5);
+	width: 78%;
+	line-height: 170px;
+	transition: all 0.3s ease;
+}
+
+.nav-menu a.c{
+	background-color: rgba(128,128,128,.5);
+	width: 88%;
+	line-height: 170px;
+	transition: all 0.3s ease;
+}
+
+.nav-menu a.d{
+	background-color: rgba(0,0,0,.5);
+	width: 68%;
+	line-height: 170px;
+	transition: all 0.3s ease;
+}
+
+.nav-menu a.e{
+	background-color: rgba(128,128,128,.5);
+	width: 44%;
+	line-height: 170px;
+	transition: all 0.3s ease;
+}
+
+
+.nav-menu a.a:hover{
+	width: 68%;
+}
+
+.nav-menu a.b:hover{
+	width: 88%;
+}
+
+.nav-menu a.c:hover{
+	width: 98%;
+}
+
+.nav-menu a.d:hover{
+	width: 78%;
+}
+
+.nav-menu a.e:hover{
+	width: 54%;
+}

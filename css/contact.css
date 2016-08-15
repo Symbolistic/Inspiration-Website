@@ -1,0 +1,134 @@
+body{
+	background-color:#1c1c1c;
+	color: #fff;
+}
+
+h1{
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+  	text-transform: uppercase;
+}
+
+p{
+	font-size: 18px;
+	text-align: center;
+}
+
+
+.header{
+	background-color: rgba(0, 0, 0, .3);
+	overflow: hidden;
+	position: relative;
+}
+
+.header a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.title{
+	float: left;
+	text-shadow: 0 2px 3px rgba(0,0,0,.4);
+	color: white;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.nav-btn{
+	position: relative;
+	float: right;
+	height: 100px;
+	width: 100px;
+	z-index: 1000;
+	background: url("../img/menu.png");
+	background-size: 60px;
+	background-color: rgba(242,147, 46, .5);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+.contact{
+	margin-top: -100px;
+	background: url("../img/tropical-tint.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	height: 600px;
+}
+
+.contact h1{
+	font-weight: bold;
+	font-size: 60px;
+	text-align: right;
+	margin-top: 320px;
+	margin-left: 10px;
+	text-shadow: 0 4px 5px rgba(0,0,0, .8);
+}
+
+
+.contact-text{
+	height: 400px;
+}
+
+.contact-text h1{
+	border-bottom: 1px solid gray;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+.btn{
+	height: 43px;
+	width: 150px;
+	background-color: rgba(242, 147, 47, 1);
+	border-radius: 10px;
+	margin: 0 auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.btn a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.btn:hover{
+	background-color: rgba(242, 147, 47, .5);
+}
+
+.footer{
+	border-top: 1px solid gray;
+	height: 50px;
+}
+
+.footer p{
+	margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 1020px) {
+
+	p{
+		font-size: 16px;
+	}
+
+
+	.contact{
+		height: 400px;
+	}
+
+	.contact h1{
+		font-size: 40px;
+		margin-top: 105px;
+		margin-left: 30px;
+	}
+}
